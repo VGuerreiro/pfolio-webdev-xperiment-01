@@ -2,12 +2,18 @@ body{
     background-color: #080606;
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 
-#mainNav{
+#mainNav {
     color: white;
-    font-weight: 700;
+    font-weight: 400;
+}
+
+#mainNav .navbar-brand {
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 #mainNav .nav-link {
@@ -18,8 +24,25 @@ body{
     background-image: url("imgs/logo.svg");
 }
 
+#page-title h1{
+    color: #1f1f1f;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#stripe {
+ border-color: #773b3b !important;
+}
+
 img.art {
     max-width: 100%;
+}
+
+#social-links li a {
+    border: solid .05rem #773b3b;
+    border-radius: .5rem;
+    color: white;
 }
 
 .rotated.first {
