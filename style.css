@@ -1,0 +1,53 @@
+body{
+    background-color: #080606;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+#mainNav{
+    color: white;
+    font-weight: 700;
+}
+
+#mainNav .nav-link {
+    color: white;
+}
+
+#mainNav .navbar-toggler-icon {
+    background-image: url("imgs/logo.svg");
+}
+
+img.art {
+    max-width: 100%;
+}
+
+.rotated.first {
+    transform: rotate(-10deg);
+    margin-top: 10rem;
+    margin-left: -3rem;
+}
+
+.rotated.second {
+       transform: rotate(8deg); 
+       margin-top: -3rem;
+         margin-left: 2rem;
+}
+
+.rotated.third {
+       transform: rotate(20deg); 
+       margin-top: -8rem;
+         margin-left: -8rem;
+}
+
+.rotated.forth {
+       transform: rotate(-10deg); 
+       margin-top: -15rem;
+         margin-left: 4rem;
+}
+
+.tooltip {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
